@@ -8,7 +8,7 @@ export const EffectOnMount = () => {
   const ref = useRef();
 
   useEffect(() => {
-    sleep(10_000);
+    // sleep(10_000);
     setWidth(ref.current.offsetWidth);
   }, []);
 

@@ -8,6 +8,8 @@ import { StateBase } from "./StateBase";
 import { StateDouble } from "./StateDouble";
 import { EffectOnMount } from "./EffectOnMount";
 
+import "./styles.css";
+
 export function App() {
   return (
     <BrowserRouter>

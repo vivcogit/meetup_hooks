@@ -1,4 +1,44 @@
+html {
+  background-color: rgb(40, 44, 52);
+}
+
 .App {
+  color: #61dafb;
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
+  background-color: rgb(40, 44, 52);
+  padding: 1rem;
+}
+
+h1 {
+  margin-top: 5rem;
+}
+
+h1,
+h2 {
+  color: #61dafb;
+}
+
+a.back {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #61dafb;
+  color: rgb(40, 44, 52);
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.list a::after {
+  content: " >";
 }
